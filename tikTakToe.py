@@ -1,6 +1,6 @@
 # let's try makeing a game ( tik tak toe ) it's gonna be so much fun 
 # Name : Ajay Sharma 
-# instagram : 
+ 
 class TikTakToe: 
     def __init__(self) :
         self.user_one = False
