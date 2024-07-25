@@ -1,6 +1,6 @@
 # let's try makeing a game ( tik tak toe ) it's gonna be so much fun 
 # Name : Ajay Sharma 
-# instagram : 
+
 class TikTakToe: 
     def __init__(self) :
         self.user_one = False
@@ -58,10 +58,10 @@ class TikTakToe:
             
     def Winner(self):
         if ['X','X','X'] in self.winningMoves:
-            print("Player-2 is winner...!!!")
+            print("Player-2 is the winner...!!!")
             
         elif ['O', 'O','O'] in self.winningMoves:
-            print("Player-1 One is winner.....!!!")
+            print("Player-1 One is the winner.....!!!")
             
         else: 
             print("It's draw....!!! ")
