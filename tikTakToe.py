@@ -98,7 +98,9 @@ while True:
     |  {tikTakToe.choices[3]} |  {tikTakToe.choices[4]} |  {tikTakToe.choices[5]} |  
     |  {tikTakToe.choices[6]} |  {tikTakToe.choices[7]} |  {tikTakToe.choices[8]} |
     
-    '''     
+    '''  
+    print(instruction)
+    print()
     print(box)
     tikTakToe.Win()
     if tikTakToe.isWin:
